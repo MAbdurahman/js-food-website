@@ -230,6 +230,14 @@ body {
 	transition: all 0.5s;
 }
 
+.gallery-link:hover .food-img {
+	box-shadow: 1rem 1rem 0.1rem #e92929, 2rem 2rem 0.1rem #a2e946,
+		3rem 3rem 0.1rem #297ce9, 4rem 4rem 0.1rem #e92999;
+	transform: scale(1.1);
+	filter: blur(0.5rem);
+	opacity: 0.5;
+}
+
 .food-name {
 	position: absolute;
 	top: 3rem;
@@ -251,7 +259,7 @@ body {
 
 .food-description {
 	position: absolute;
-	bottom: 3vw;
+	bottom: 5vw;
 	left: 2rem;
 	width: 70%;
 	font-size: 1.5rem;
@@ -271,12 +279,4 @@ body {
 }
 
 
-[title] {
-/* 	border: #666 2px solid;
-	padding: 5px 20px 5px 5px;
-	display: block;
-	z-index: 100; */
-	background: #555;
-	color: #e3e3e3;
-	
-}
+
