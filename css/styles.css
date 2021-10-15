@@ -72,3 +72,97 @@ body {
 	transform: translate(-50%, -50%) scale(1);
 	transition: transform 0.3s 0.3s;
 }
+
+/*=============================================
+            section-two
+================================================*/
+.section-two {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 10rem 0;
+	background-color: #222;
+}
+
+.card-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	/* padding: 0 5%; */
+}
+
+.card {
+	position: relative;
+	width: 30rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 4rem;
+	background-color: #a79a2d;
+	box-shadow: 1rem 1rem 1rem #000;
+	transform: rotateY(20deg) skewX(-2deg);
+	transition: transform 0.5s, box-shadow 0.5s;
+}
+
+.card:hover {
+	transform: rotateY(20deg) skewX(-2deg) translateY(-3rem);
+	box-shadow: 2rem 2rem 2rem #000;
+}
+
+.card::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: -1rem;
+	height: 100%;
+	width: 1rem;
+	background-color: #817824;
+	transform: skewY(45deg);
+	transform-origin: right;
+	box-shadow: -0.1rem -0.1rem 0.1rem #000;
+}
+
+.card::after {
+	content: '';
+	position: absolute;
+	top: -1rem;
+	left: 0;
+	width: 100%;
+	height: 1rem;
+	background-color: #8f8317;
+	transform: skewX(45deg);
+	transform-origin: bottom;
+	box-shadow: -0.1rem -0.1rem 0.1rem #000;
+}
+
+.card-img {
+	width: 100%;
+}
+
+.card-name {
+	margin: 2rem 0;
+	font-size: 3rem;
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 0.5rem;
+	color: #111;
+	text-shadow: 0.15rem 0.15rem 0.15rem #000;
+}
+
+.card-btn {
+	width: 70%;
+	padding: 0.5rem 0;
+	background-color: #111;
+	color: #888;
+	border-radius: 5rem;
+	font-size: 1.5rem;
+	font-weight: 800;
+	letter-spacing: 0.2rem;
+	text-transform: capitalize;
+	border: none;
+	cursor: pointer;
+	box-shadow: -0.2rem -0.2rem 0.2rem #000;
+}
