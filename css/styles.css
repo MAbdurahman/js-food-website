@@ -601,6 +601,9 @@ body {
 	.navbar-link {
 		margin: 0 0.7rem;
 	}
+	.food-description {
+		bottom: 10vw;
+	}
 }
 
 @media (max-width: 325px) {
