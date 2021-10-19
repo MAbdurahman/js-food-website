@@ -696,6 +696,10 @@ hr.horizontal-line {
 		height: auto;
 		padding: 10rem 0 12rem 0;
 	}
+	.food-img {
+		width: 83.33%;
+		height: 83.33%;
+	}
 
 	.section-four {
 		-webkit-box-pack: space-evenly;
