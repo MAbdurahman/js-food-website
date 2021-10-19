@@ -509,6 +509,9 @@ hr.horizontal-line {
 	.food-description {
 		bottom: 5.5em;
 	}
+	.copyright {
+		padding-bottom: 2.75em;
+	}
 }
 
 @media (max-width: 1400px) {
@@ -631,6 +634,9 @@ hr.horizontal-line {
 @media (max-width: 460px) {
 	.section-four-inner {
 		flex-direction: column;
+	}
+	.copyright {
+		padding-bottom: 1.2em;
 	}
 }
 
